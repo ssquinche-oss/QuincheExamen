@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="QuincheExamen/QuincheExamen.Droid/QuincheExamen.Droid.csproj">
+    <Deploy />
+  </Project>
+  <Project Path="QuincheExamen/QuincheExamen.WinUI/QuincheExamen.WinUI.csproj">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="QuincheExamen/QuincheExamen/QuincheExamen.csproj" />
+</Solution>

@@ -1,0 +1,20 @@
+﻿<Application.Resources>
+    <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+            <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+        </ResourceDictionary.MergedDictionaries>
+
+        <Style x:Key="TituloRojo" TargetType="Label">
+            <Setter Property="TextColor" Value="Red"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+        </Style>
+
+        <Style x:Key="BotonPrincipal" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#512BD4"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="CornerRadius" Value="8"/>
+        </Style>
+    </ResourceDictionary>
+</Application.Resources>
